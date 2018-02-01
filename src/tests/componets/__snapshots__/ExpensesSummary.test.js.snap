@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot with multiple expense 1`] = `
+<div>
+  Viewing 
+  3
+   expense
+  s
+   for a total of 
+  $56.78
+  .
+</div>
+`;
+
+exports[`Snapshot with one expense 1`] = `
+<div>
+  Viewing 
+  1
+   expense
+   for a total of 
+  $12.34
+  .
+</div>
+`;
