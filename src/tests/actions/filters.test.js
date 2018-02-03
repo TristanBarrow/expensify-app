@@ -22,6 +22,7 @@ test('Should set end date Default action object', () => {
     endDate: undefined
   };
   expect(setEndDate()).toEqual(output);
+  
 });
 
 test('Should set text filter Default action object', () => {

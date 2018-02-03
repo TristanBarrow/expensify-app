@@ -15,6 +15,7 @@ test('Remove an expense', () => {
   const state = expensesReducer(expenses, action);
 
   expect(state).toEqual([ expenses[1], expenses[2] ]);
+  
 });
 
 test('Fail to remove non-existant expense', () => {

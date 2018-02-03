@@ -16,4 +16,5 @@ test('Add up single Expense', () => {
   const allExpenses = selectExpensesTotal(expenses);
   const theirAddedAmounts = 600;
   expect(allExpenses).toBe(theirAddedAmounts);
+  
 });
