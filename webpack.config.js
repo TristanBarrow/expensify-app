@@ -10,8 +10,6 @@ if (process.env.NODE_ENV === 'test'){
   require('dotenv').config({ path: '.env.development'});
 }
 
-console.log('node env:', process.env.NODE_ENV);
-
 module.exports = (env) => {
   const isProduction = env === 'production';
   const CSSExtract = new ExtractTextPlugin('styles.css');
