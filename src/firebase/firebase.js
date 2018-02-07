@@ -13,6 +13,4 @@ firebase.initializeApp(config);
 
 const database = firebase.database();
 
-const pushToDatabase = (dataLocation, data) => database.ref(dataLocation).push(data);
-
-export { firebase, pushToDatabase, database as default };
+export { firebase, database as default };

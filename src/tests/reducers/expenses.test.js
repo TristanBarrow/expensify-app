@@ -86,3 +86,12 @@ test('Edit an expense', () => {
   
   expect(expensesReducer(expenses, action)).toEqual(expenses);
 });
+
+test('Set expenses', () => {
+  const action = {
+    type: 'SET_EXPENSES',
+    expenses
+  }
+
+  expect(expensesReducer([ expenses[0] ], action)).toEqual(expenses);
+});
