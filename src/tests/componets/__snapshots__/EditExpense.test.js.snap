@@ -9,6 +9,7 @@ exports[`render edit expense page 1`] = `
       }
     }
     onSubmit={[Function]}
+    submitButton="Add Edits"
   />
   <button
     onClick={[Function]}

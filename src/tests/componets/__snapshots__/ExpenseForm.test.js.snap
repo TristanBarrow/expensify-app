@@ -99,9 +99,7 @@ exports[`Render error for invalid form submission 1`] = `
       placeholder="Add a note for your expense (optional)"
       value=""
     />
-    <button>
-      Add Expense
-    </button>
+    <button />
   </form>
 </div>
 `;
@@ -208,9 +206,7 @@ exports[`Render error for invalid form submission 2`] = `
       placeholder="Add a note for your expense (optional)"
       value=""
     />
-    <button>
-      Add Expense
-    </button>
+    <button />
   </form>
 </div>
 `;
@@ -314,9 +310,7 @@ exports[`render ExpenseForm 1`] = `
       placeholder="Add a note for your expense (optional)"
       value=""
     />
-    <button>
-      Add Expense
-    </button>
+    <button />
   </form>
 </div>
 `;
