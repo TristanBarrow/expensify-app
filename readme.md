@@ -1,7 +1,7 @@
-# Git Commands
+# Expensify App
 
-git init - Create new Git repository
-git status - View changes to project code
-git add - Add files to staging area
-git commit - Creates new commit with files from staging area
-git log - View recent commits 
+This was built along with a Udemy Course. I then followed up the course with an
+internship where I diagnosed several issues with their system.
+
+React is one of my favorite things to do and this is the app that taught me how 
+to work with it.
